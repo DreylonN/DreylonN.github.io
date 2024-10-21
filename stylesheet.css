@@ -7,14 +7,16 @@ body {
     text-align: center;
 }
 
-#header, .section, footer, #comparison {
-    background-color: #8ACE00;
-    color: #fff;
+#header, footer {
+    background-color: #FFFFFF; /* Set header and footer background to white */
+    color: #000;
     padding: 20px;
     text-align: center;
 }
 
-.section {
+.section, #comparison {
+    background-color: #8ACE00; /* Ensure consistent background for main sections */
+    color: #000;
     margin: 20px auto;
     padding: 15px;
     border-radius: 5px;
@@ -59,7 +61,7 @@ img {
 }
 
 footer {
-    background-color: #8ACE00;
+    background-color: #FFFFFF; /* Ensure footer background is white */
     color: #000;
     text-align: center;
     padding: 10px;
