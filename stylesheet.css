@@ -46,7 +46,7 @@ body {
 }
 
 #timeline .small-image {
-    max-width: 50%; /* Make the Pure Heroine image smaller */
+    max-width: 25%; /* Make the Pure Heroine image smaller */
     height: auto;
 }
 
