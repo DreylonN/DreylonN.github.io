@@ -45,6 +45,11 @@ body {
     margin-right: auto;
 }
 
+#timeline .small-image {
+    max-width: 50%; /* Make the Pure Heroine image smaller */
+    height: auto;
+}
+
 #lyrics pre {
     text-align: left;
     white-space: pre-wrap;
