@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #8ACE00;
-    color: #000; /* Text color set to black */
+    color: #000;
     text-align: center;
 }
 
 #header, .section, footer, #comparison {
-    background-color: #8ACE00; /* Brat Green background */
-    color: #000; /* Text color set to black */
+    background-color: #8ACE00;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -19,7 +19,7 @@ body {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Keep content centered within a max width */
+    max-width: 800px;
 }
 
 #timeline ul {
@@ -29,6 +29,7 @@ body {
 
 #timeline li {
     margin: 20px 0;
+    text-align: center; /* Center the text within each list item */
 }
 
 #timeline img {
@@ -37,7 +38,7 @@ body {
     margin-top: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto; /* Center images */
+    margin-right: auto;
 }
 
 #remix a {
@@ -58,9 +59,8 @@ img {
 }
 
 footer {
-    background-color: #8ACE00; /* Brat Green background */
+    background-color: #8ACE00;
     color: #000;
     text-align: center;
     padding: 10px;
 }
-
