@@ -4,30 +4,44 @@ body {
     padding: 0;
     background-color: #8ACE00;
     color: #000; /* Text color set to black */
+    text-align: center;
 }
 
-#header {
-    background-color: #333;
+#header, .section, footer, #comparison {
+    background-color: #8ACE00; /* Brat Green background */
     color: #000; /* Text color set to black */
     padding: 20px;
     text-align: center;
 }
 
 .section {
-    background-color: #8ACE00; /* Keeps the background consistent with the body */
-    color: #000; /* Text color set to black */
-    margin: 20px;
+    margin: 20px auto;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Keep content centered within a max width */
 }
 
-#timeline, #song-info, #comparison, #remix {
-    margin-bottom: 20px;
+#timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#timeline li {
+    margin: 20px 0;
+}
+
+#timeline img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center images */
 }
 
 #remix a {
-    color: #005bb5; /* Darker link color for contrast */
+    color: #005bb5;
     text-decoration: none;
 }
 
@@ -40,24 +54,13 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 footer {
-    background-color: #333;
-    color: #000; /* Text color set to black */
+    background-color: #8ACE00; /* Brat Green background */
+    color: #000;
     text-align: center;
     padding: 10px;
 }
 
-#remix, #comparison {
-    background-color: #8ACE00; /* Keeps the background consistent */
-    color: #000; /* Text color set to black */
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#comparison {
-    background-color: #8ACE00; /* Keeps the background consistent */
-}
